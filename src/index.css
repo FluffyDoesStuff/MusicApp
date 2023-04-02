@@ -1,0 +1,19 @@
+.task {
+    background-color: #ffffff2d;
+    border-radius: 5px;
+    width: 40%;
+    padding: 5px;
+}
+
+#main {
+    background-color: antiquewhite;
+}
+
+#tasks {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
